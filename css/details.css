@@ -25,9 +25,9 @@
 	height: 300px;
 }
 
-#spotlight{
+#spotlight .wrapper{
   background:url(../img/tecnologia-banner.png) no-repeat center top;
-  background-position: auto 100%;
+  background-size: cover;
   height: 500px;
   position: relative;
  }
@@ -39,9 +39,7 @@
 #spotlight p{
   bottom: 20px;
   color: white;
-  font-family: "Brandon Grotesque Regular", Arial, sans-serif;
   font-size:48px;
-  left: 20px;
   position: absolute;
   text-decoration: none;
   text-transform: uppercase;
@@ -55,7 +53,6 @@
 
 .wrapper{
     margin:0 auto;
-    max-width:62.500em;
     position:relative;
     width:95%;
   }
